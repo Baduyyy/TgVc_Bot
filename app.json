@@ -1,0 +1,69 @@
+{
+  "name": "Musik-Ribet",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "logo": "https://telegra.ph/file/ed136c19e7f6afddb4912.jpg",
+  "repository": "https://github.com/kenkansaja/Musik-Saya",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string dapatkan di @Stringdurhakabot",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Dapatkan di @BotFather",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Isi dengan nama bot kamu.",
+      "required": false,
+      "value": ""
+    },        
+    "ASSISTANT": {
+      "description": "Isi dengan username assistant kalian tanpa tanda @",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "App ID dapatkan di my.telegram.org/apps atau di @kenkanrobot",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "App ID dapatkan di my.telegram.org/apps atau di @kenkanrobot",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "Isi dengan id telegram orang yang bisa mengkontrol bot ini jika lebih dari satu pisahkan dengan spasi.",
+      "required": true
+    },
+    "BG_IMAGE": {
+      "description": "Isi dengan fitur bot dalam format text yang kamu upload di telegra.ph",
+      "value": "https://telegra.ph/file/7dfd80f33fca97cc14b75.png"
+    },
+    "START_IMAGE": {
+      "description": "Isi dengan link foto kalau gak ada kosongin aja",
+      "required": false,
+      "value": ""
+    },
+    "GROUP": {
+      "description": "Isi dengan username group kalian tanpa tanda @",
+      "value": "Brantass"
+    },
+    "CHANNEL":{
+      "description": "Isi dengan username channel kalian tanpa tanda @",
+      "value": "Hajisupportt"
+    },
+    "OWNER": {
+      "description": "Isi dengan username kalian tanpa tanda @",
+      "value": "Gan_gimbal"
+    },
+    "PANDUAN": {
+      "description": "Isi dengan link yang akan di jadikan sampul musik",
+      "value": "https://telegra.ph/Panduan-07-20"
+    },
+    "DURATION_LIMIT": {
+      "description": "Isi dengan angka maksimal durasi yang bisa di putar ingat angka ini adalah (minutes).",
+      "required": true,
+      "value": "40"
+    }
+  }
+}
